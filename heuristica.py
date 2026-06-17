@@ -11,14 +11,12 @@ Sem multi-thread. Sem dependências externas.
 
 import sys, math, random, time
 
-
-
 def distancia(ax, ay, bx, by):
     return round(math.sqrt((bx - ax) ** 2 + (by - ay) ** 2))
 
+# leitura
 
-
-def ler_arquivo(caminho):
+def ler_instancia(caminho):
     with open(caminho, encoding='utf-8') as arquivo:
         tokens = arquivo.read().split()
     pos = 0
@@ -72,10 +70,10 @@ def ler_arquivo(caminho):
 
     return alfa, beta, gama, phi, num_semanas, num_cidades, num_equipes, cidades, equipes
 
-
+# verificação de factibilidade
 
 def cidade_pode_sediar(cidade, semana):
-    #Verifica se a cidade pode sediar o evento na semana dada (índice 0).
+    """Verifica se a cidade pode sediar o evento na semana dada (índice 0)."""
     if not cidade['disponivel'][semana]:
         return False
     for k in range(1, cidade['semanas_prep'] + 1):
@@ -85,7 +83,7 @@ def cidade_pode_sediar(cidade, semana):
     return True
 
 def solucao_factivel(cidades, atribuicao, cidades_obrigatorias):
-    #Verifica se a atribuição é factível: sem repetição, disponibilidade e obrigatórias.
+    """Verifica se a atribuição é factível: sem repetição, disponibilidade e obrigatórias."""
     usadas = set()
     for semana, idx_cidade in enumerate(atribuicao):
         if idx_cidade in usadas or not cidade_pode_sediar(cidades[idx_cidade], semana):
@@ -93,7 +91,7 @@ def solucao_factivel(cidades, atribuicao, cidades_obrigatorias):
         usadas.add(idx_cidade)
     return cidades_obrigatorias <= usadas
 
-# função objetivo 
+#função objetivo 
 
 def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
     """
@@ -110,7 +108,7 @@ def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
                             for e in participantes)
         cache_reuniao[idx] = (len(participantes), custo_reuniao)
 
-    # matriz de distâncias entre cidades (calculada uma vez)
+    # matriz de distâncias entre cidades
     M = len(cidades)
     matriz_dist = [[0] * M for _ in range(M)]
     for i in range(M):
@@ -127,7 +125,7 @@ def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
 
         num_part, custo_reuniao = cache_reuniao[primeira]
 
-        # distância do evento: percorre as cidades e volta para a primeira 
+        # distância do evento: percorre as cidades e volta para a primeira (despedida)
         custo_evento = sum(matriz_dist[atribuicao[k]][atribuicao[k + 1]]
                            for k in range(num_semanas - 1))
         custo_evento += matriz_dist[atribuicao[-1]][primeira]
@@ -236,7 +234,6 @@ def construir_greedy(num_semanas, cidades, matriz_dist, func_obj,
         if not candidatas:
             return None
 
-        # cidade anterior e próxima já alocadas (para estimar custo de distância)
         idx_anterior = next((atribuicao[s] for s in reversed(range(semana))
                              if atribuicao[s] is not None), None)
         idx_proxima  = next((atribuicao[s] for s in range(semana + 1, num_semanas)
@@ -282,7 +279,7 @@ def busca_local_completa(atribuicao, cidades, func_obj, cidades_obrigatorias,
                     else:
                         melhor[i], melhor[j] = melhor[j], melhor[i]  # desfaz
 
-    # or-opt (realocação de uma cidade)
+    # or-opt 
     melhorou2 = True
     while melhorou2:
         melhorou2 = False
@@ -393,7 +390,7 @@ def simulated_annealing(atribuicao, cidades, func_obj, cidades_obrigatorias,
 
 def double_bridge(atribuicao, aleatorio):
     """
-    Perturbação clássica para escapar de ótimos locais:
+    Perturbação para escapar de ótimos locais:
     divide a rota em 4 partes e as recombina de forma diferente.
     """
     n = len(atribuicao)
@@ -411,7 +408,7 @@ def double_bridge(atribuicao, aleatorio):
 
 def resolver(caminho_instancia, limite_tempo):
     alfa, beta, gama, phi, num_semanas, num_cidades, num_equipes, cidades, equipes = \
-        ler_arquivo(caminho_instancia)
+        ler_instancia(caminho_instancia)
 
     func_obj, matriz_dist, cache_reuniao = criar_funcao_objetivo(
         alfa, beta, gama, phi, cidades, equipes)
@@ -537,7 +534,7 @@ if __name__ == '__main__':
     if atribuicao is None:
         sys.exit(1)
 
-    _, _, _, _, _, _, _, cidades, _ = ler_arquivo(caminho_instancia)
+    _, _, _, _, _, _, _, cidades, _ = ler_instancia(caminho_instancia)
 
     with open(caminho_saida, 'w', encoding='utf-8') as saida:
         for idx in atribuicao:
