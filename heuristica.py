@@ -519,26 +519,25 @@ def resolver(caminho_instancia, limite_tempo):
 
 
 
-if __name__ == '__main__':
-    if len(sys.argv) < 3:
-        print("Uso: python heuristica.py <instancia.txt> <saida.sol>")
-        sys.exit(1)
+if len(sys.argv) < 3:
+    print("Uso: python heuristica.py <instancia.txt> <saida.sol>")
+    sys.exit(1)
 
-    caminho_instancia = sys.argv[1]
-    caminho_saida     = sys.argv[2]
+caminho_instancia = sys.argv[1]
+caminho_saida     = sys.argv[2]
 
-    nome_arquivo = caminho_instancia.lower()
-    limite_tempo = 4.5 if 'sprint' in nome_arquivo else 19.5
+nome_arquivo = caminho_instancia.lower()
+limite_tempo = 4.5 if 'sprint' in nome_arquivo else 19.5
 
-    atribuicao, valor_obj = resolver(caminho_instancia, limite_tempo)
-    if atribuicao is None:
-        sys.exit(1)
+atribuicao, valor_obj = resolver(caminho_instancia, limite_tempo)
+if atribuicao is None:
+    sys.exit(1)
 
-    _, _, _, _, _, _, _, cidades, _ = ler_instancia(caminho_instancia)
+_, _, _, _, _, _, _, cidades, _ = ler_instancia(caminho_instancia)
 
-    with open(caminho_saida, 'w', encoding='utf-8') as saida:
-        for idx in atribuicao:
-            saida.write(cidades[idx]['nome'].strip() + '\n')
+with open(caminho_saida, 'w', encoding='utf-8') as saida:
+    for idx in atribuicao:
+        saida.write(cidades[idx]['nome'].strip() + '\n')
 
-    print(f"Objetivo: {valor_obj:.6f}")
-    print("Rota:", " -> ".join(cidades[idx]['nome'].strip() for idx in atribuicao))
+print(f"Objetivo: {valor_obj:.6f}")
+print("Rota:", " -> ".join(cidades[idx]['nome'].strip() for idx in atribuicao))
