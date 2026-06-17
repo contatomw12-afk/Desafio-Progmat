@@ -1,7 +1,7 @@
 """
 Furlan 1 – Solver Heurístico
 Pipeline:
-  1. Construção greedy multi-start aleatorizada
+  1. Construção gulosa multi-start aleatorizada
   2. Busca local completa (swap + or-opt) nas melhores soluções
   3. Simulated Annealing na melhor solução de busca local
   4. ILS: perturbação double-bridge + busca local rápida no tempo restante
@@ -195,12 +195,12 @@ def delta_swap(pos_i, pos_j, atribuicao, alfa, beta, gama, phi,
 
     return delta
 
-# construção greedy 
+# construção gulosa 
 
-def construir_greedy(num_semanas, cidades, matriz_dist, func_obj,
+def construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
                      aleatorio, cidades_obrigatorias, top_k=4):
     """
-    Constrói uma solução de forma greedy aleatorizada:
+    Constrói uma solução de forma gulosa aleatorizada:
     - Obrigatórias primeiro (mais restrita primeiro)
     - Demais cidades escolhidas entre as top_k melhores (aleatoriedade controlada)
     """
@@ -418,34 +418,34 @@ def resolver(caminho_instancia, limite_tempo):
     t0 = time.time()
     tempo_decorrido = lambda: time.time() - t0
 
-    #Fase 1: construção greedy multi-start (25% do tempo)
-    pool_greedy = []
+    #Fase 1: construção gulosa multi-start (25% do tempo)
+    pool_gulosa = []
     for semente in range(5000):
         if tempo_decorrido() > limite_tempo * 0.25:
             break
         aleatorio.seed(semente)
-        sol = construir_greedy(num_semanas, cidades, matriz_dist, func_obj,
+        sol = construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
                                aleatorio, cidades_obrigatorias, top_k=4)
         if sol and solucao_factivel(cidades, sol, cidades_obrigatorias):
-            pool_greedy.append((func_obj(sol), sol))
+            pool_gulosa.append((func_obj(sol), sol))
 
-    if not pool_greedy:
+    if not pool_gulosa:
         for semente in range(10000):
             aleatorio.seed(semente + 99999)
-            sol = construir_greedy(num_semanas, cidades, matriz_dist, func_obj,
+            sol = construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
                                    aleatorio, cidades_obrigatorias, top_k=1)
             if sol and solucao_factivel(cidades, sol, cidades_obrigatorias):
-                pool_greedy.append((func_obj(sol), sol))
+                pool_gulosa.append((func_obj(sol), sol))
                 break
-    if not pool_greedy:
+    if not pool_gulosa:
         return None, None
 
-    pool_greedy.sort(key=lambda x: x[0])
-    melhores_greedy = [sol for _, sol in pool_greedy[:20]]
+    pool_gulosa.sort(key=lambda x: x[0])
+    melhores_gulosa = [sol for _, sol in pool_gulosa[:20]]
 
-    # Fase 2: busca local completa nas melhores greedy (25% do tempo)
+    # Fase 2: busca local completa nas melhores gulosa (25% do tempo)
     pool_bl = []
-    for sol in melhores_greedy:
+    for sol in melhores_gulosa:
         if tempo_decorrido() > limite_tempo * 0.50:
             break
         sol_mel, obj_mel = busca_local_completa(
