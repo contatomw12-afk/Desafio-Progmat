@@ -1,0 +1,62 @@
+0.023 0.033 0.028 0.002
+8 10 5
+Foz Grande
+False
+310 547 0
+False True True True True True True True
+2100 3500 120 5370 870 2130 830 2450
+Vila Bonito dos Campos
+False
+221 37 0
+True False True False True True False True
+3120 1020 790 3420 920 1960 4670 2300
+Parana Azul do Vale
+False
+374 572 5
+True True True True True False False False
+10000 3620 1080 4260 8720 1710 290 2970
+Aracaju Escuro do Vale
+False
+181 72 2
+True True True True True True True True
+2600 900 1080 2150 910 1130 4720 690
+Parana Uniao das Flores
+False
+911 990 8
+True True True True False False True True
+3660 410 2900 1760 1420 1010 220 1680
+Nova Esperanca do Norte
+False
+606 602 8
+True True True True True False True True
+1080 2920 2510 840 500 100 870 3290
+Palmas Claro
+False
+206 995 0
+True True True True True True True True
+340 1520 1090 2860 6010 1230 1740 1640
+Guarulhos Rico do Oeste
+False
+650 411 3
+True True True True True True False False
+2800 100 3280 5570 5960 670 2680 1000
+Londrina Uniao do Sul
+False
+143 732 4
+True True True True True True True True
+150 1820 4070 3730 1020 100 270 3050
+Belem Verde da Serra
+False
+177 693 8
+True True True False True False True True
+1010 5620 4110 330 570 580 1610 3310
+Panteras Clube
+396 929 845
+Gladiadores 
+271 923 672
+Panteras Paulista
+608 665 745
+Furacões Clube
+310 547 697
+Águias 
+808 743 673

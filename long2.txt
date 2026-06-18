@@ -1,0 +1,542 @@
+0.042 0.077 0.027 0.034
+70 100 20
+Ibate Novo do Sul
+False
+946 766 3
+False True True True True True True True True True False True True True True False False False True True False False True False True True True True True True True True True True True True True True True True False True True True True False True False True True True False False True True True True True True True True True True True True True False True False True
+880 380 5100 2470 1260 3800 100 770 2330 460 470 780 2390 940 100 1330 1550 3350 4880 2980 7510 7560 260 100 2200 5130 490 1740 740 500 2950 1360 5060 1330 1420 6890 1240 1590 380 690 1400 2690 680 100 700 320 1010 2220 100 100 2400 2760 2420 2930 820 2860 630 2820 570 7560 520 610 390 1700 2830 690 1770 2250 5410 540
+Blumenau Feliz dos Campos
+False
+150 940 0
+True True True True True False True True True False False True False True True False True True True True True False True True True True True False True True False True False False True True True True True True False True True True True True True True True True False True True True True True False False True True True False True True True True True True True False
+2550 430 1010 4130 1360 2260 3150 2960 320 290 1680 3500 4580 930 670 3700 2820 1220 100 110 1340 2820 1010 6740 740 7590 410 2620 160 800 1520 1640 2690 2100 1820 4400 300 1390 2630 210 550 1290 1080 990 1370 3030 2860 2540 1860 1560 2210 3510 2360 1580 1210 6540 2030 6040 1350 4780 1480 910 750 970 6050 1260 4330 1200 630 2780
+Contagem Azul dos Campos
+False
+869 484 70
+True True True True True True True True True True True True True True True True True True True True False True True True True True True True True True True True False False True True True True True False True True True False True True False True True True False True True True False True False False True True False True True True True True True False True True
+4910 1370 1440 2140 530 390 4000 1130 1360 930 390 5090 1110 260 520 1220 3280 2750 2990 3520 3210 240 3320 3400 1040 5710 1430 4190 160 5140 820 100 2970 220 3390 990 670 9390 2900 5570 6890 100 1680 1870 2120 1520 490 550 1910 860 800 1140 1080 2490 980 840 780 1750 280 2090 3160 140 2490 100 1100 890 100 2140 5610 1370
+Niteroi Horizonte das Flores
+False
+725 664 1
+True True True True True True False False True True True True False True True True False True True True True True True False True True True True True True False True False True True True True False False True True True True False True False True True True True True True True False True True True False True False True True True True False True True True False True
+100 1240 710 170 1580 10000 390 3740 110 370 4290 3400 1730 7540 850 280 170 600 1240 920 6860 220 660 1160 2790 670 100 1390 1280 100 1070 1030 1950 3510 5020 100 160 1120 690 350 190 1430 520 930 1980 2360 1380 100 190 1840 530 100 6320 600 7690 1420 3770 980 1510 6220 200 100 160 2000 2380 2940 750 4990 170 2290
+Bauru Velho do Vale
+True
+385 374 0
+True False True True False True False True True True False True False True False True True True True True True False True True True True True True True False True True True True True True False True True True True True True True True False True True True False True True True True True True True True True True False True True False True True True True True True
+940 1100 1010 1560 4610 140 840 1180 2060 10000 1060 1720 960 100 2420 1340 3610 2680 3930 2510 1500 1850 280 4330 240 620 5960 5220 1650 4570 2060 1100 460 1360 140 2280 1330 3150 1750 290 2060 6520 3960 5020 5320 1240 550 570 230 1690 2420 3060 200 1180 480 2280 1180 990 1540 1620 140 950 970 320 1200 2740 890 170 4630 3900
+Joinville Feliz dos Campos
+False
+37 911 5
+False True True True True True True False False True False True True True False True True True False True True False True True False True False True False True True True True True True True True False False False True True True True True True True True False False True True True True True True True True True True True True True True True True True True True True
+1110 100 2930 3580 3020 3350 5060 7610 4420 430 1730 560 960 2090 1270 1170 130 170 100 980 1590 3500 3130 100 1650 3760 880 2100 980 2350 100 770 350 150 3580 1030 640 1160 170 850 6720 5930 1200 3870 1040 2270 1740 2930 6230 1620 610 380 100 2860 670 3330 2630 710 1220 2530 2200 790 1580 680 1120 140 1100 3000 370 400
+Campo Azul do Norte
+False
+67 283 70
+True True True True True True True True True True True True True True True True True True True True True True True True False True True True True False False True True True True True True True False False True True True True True True True True True True True False True True True True True True True True False True True True False True True True False True
+1990 1010 3750 640 2420 3220 100 150 200 720 520 210 920 1030 420 790 2020 220 3750 3590 480 2120 100 540 100 2340 1340 7190 1360 3200 550 2220 620 140 4390 180 940 1150 1110 820 3650 160 3320 1470 1170 650 600 4410 1720 1720 2780 330 1140 1460 2880 2770 1510 2770 3270 6870 1600 7550 580 1550 1830 120 100 1580 6750 230
+Ponta Bonito das Flores
+False
+420 196 3
+True True True True True True True False True True True True True True True True False True True True True True True True True False True False True True True False True True True True True True False True True True True True True True True True False True True True False False True True True True True True True True True True True True True True True True
+1860 1640 1310 1110 260 3680 100 2800 2440 470 3110 1550 290 850 720 1470 2360 1390 370 3300 640 7270 3330 1690 290 600 880 170 2030 2140 350 150 2070 660 5420 6380 1710 1880 3060 1270 6250 3170 100 2880 5840 1770 5910 9180 870 1080 3760 4300 4100 140 100 2060 5360 2490 2780 4540 5910 1110 1370 100 270 340 3380 2040 4990 170
+Baixo Sonhos
+False
+955 260 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True False True True False True False True False True False True True True False True False
+740 290 4360 2820 3450 2400 530 2060 1350 2060 2900 1010 960 2130 270 8000 170 630 3260 2500 10000 1510 6490 850 1690 4150 1080 1440 3120 380 3240 890 2520 1330 1300 100 3770 4220 210 1420 440 3090 5300 2680 2660 5420 1520 2120 440 950 3760 5340 680 320 6070 2360 330 1300 1360 3940 470 8040 270 8390 480 2040 2980 2810 2850 1510
+Palmas Sonhos das Flores
+False
+151 358 1
+False True True True True True True True True True False True False True True True True True True True True True False False True False True True True True True True False False True True True True True True True True True False False False True True True True False True True True True False True True True True True True True True False True True True True False
+100 4140 2190 6980 640 3620 1230 570 2440 2310 5180 190 110 110 2110 100 2710 590 1330 1950 3370 1960 3970 5380 1010 1800 3520 2160 1660 970 130 4410 2500 100 1920 100 420 2410 1070 10000 710 100 790 720 4630 670 1750 3440 800 3620 3570 3110 2460 3550 200 660 970 1240 310 1390 7300 470 1270 2740 970 1360 1490 100 1020 2660
+Baixo Bonito do Oeste
+False
+571 125 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True False True True False True True True False True False True True False True True True True True True True True True False True True False True True False True False True True True True True True False True True False False
+1730 4570 400 370 7910 370 5660 210 1850 1540 610 2490 190 6050 340 1520 2180 550 650 960 680 100 160 840 870 1490 450 2430 840 280 340 3380 2110 1820 100 4820 1820 2190 410 810 150 390 910 240 560 700 230 960 2090 810 100 680 330 220 2020 2080 2180 2140 400 2020 4460 410 810 5260 1670 2980 340 150 2890 2170
+Uberaba Azul das Flores
+False
+139 323 70
+True True False True True True True True True False True False True True True False True False False True False True True True True True True True True True True False True True True True True True True True True False True True True True True True True False False True True True True False False True True False True True True False True False True True True True
+650 2030 100 550 1790 570 1220 260 3420 460 4970 1840 3160 3040 480 630 330 1510 2140 730 960 2160 1210 2460 510 510 240 100 400 3420 3530 640 600 2660 120 1810 730 3140 2950 3880 700 3020 720 5200 650 760 550 3650 500 10000 610 1850 880 1000 2860 2680 2350 3080 3900 2410 9900 240 1630 1240 560 690 420 5040 2790 5540
+Sorocaba Horizonte do Oeste
+False
+474 608 1
+True True True True True True True False True True True True True True True True False False True True False True False True True True True True False False False True True True True True False False True True True False True True True True True True False False True True True True True True True True True True True True True True True True True True True True
+2920 730 480 330 1620 2580 300 1300 1570 2840 2730 2320 1630 2730 550 3040 5760 5510 3370 100 100 2190 520 2190 730 100 3580 3970 1960 1490 5130 4890 5750 1270 1340 190 750 2360 4820 100 1470 1660 5360 2330 4000 100 980 1950 370 1680 1130 580 100 410 250 1420 280 2450 2210 1830 750 1910 100 720 370 860 5580 2080 1480 290
+Vitoria Lindo
+False
+62 382 0
+True True False True True True True True True True True True False True True False True False False True True False False True False True True True True True True True True True True True True True True True True False True True True False True True False True True True True True True False True False True True True True False False True True False True True False
+4130 250 3790 680 870 3720 3620 1650 1540 590 7100 2390 2300 6820 570 3540 350 410 4280 4520 160 100 550 1330 2040 140 2210 2950 3890 390 1540 300 100 320 3250 100 3020 2970 1810 630 2520 1210 170 1010 390 360 2810 7740 450 1080 6410 350 400 510 1500 1670 450 300 310 450 960 300 4570 510 1680 1990 1400 1580 770 100
+Londrina Azul dos Campos
+False
+363 855 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True False False True True
+1920 1280 2560 2000 1510 430 2400 660 900 1170 630 1480 710 270 1320 1980 3000 3750 2440 400 290 1750 140 2510 3850 1360 1840 940 1130 3850 150 3130 840 4050 3700 5060 280 2600 360 6080 540 230 200 630 190 100 2530 390 1230 3390 1510 620 360 940 1700 1080 100 620 2590 450 200 1180 2910 510 2730 560 530 8880 940 6790
+Blumenau Claro da Serra
+False
+792 144 5
+True True True True True True True True True True True True True True True True True True False True True True False True True True True True True True True False True True True True False True True True False True True True True True True True True True True True True True True True True True True True True True True True True True True True True False
+2250 2200 820 800 7480 760 4390 230 1160 2430 1410 100 1590 3540 7390 2020 310 5040 490 970 8400 1480 2090 610 1450 9160 3780 1280 2300 1290 4010 1890 3220 2790 1550 570 100 3290 950 100 2440 6790 2950 2990 1210 6040 1730 760 2410 4310 1160 180 2720 7140 4710 5860 2380 1340 340 1790 1180 510 2500 250 510 2580 10000 430 6730 1900
+Baixo Azul do Sul
+False
+101 124 1
+False True True True False True True True True False False True True True True True True True True True True True True True False True False True True True True True False True True True True True True True True True True True True True True False True False False False True True True True True True True False False True True True True True True True False True
+780 100 210 8600 980 470 5990 2360 5710 5190 210 3010 4570 690 260 140 110 960 3570 6140 2360 3040 100 3190 720 1200 740 2610 100 3760 3330 2570 140 1360 680 1220 540 1280 1720 190 2800 2780 1500 4020 3190 1430 1910 1410 4230 660 2410 200 3670 3770 10000 290 330 10000 710 100 470 110 290 2740 620 2010 310 1990 1800 9580
+Brasilia Forte dos Campos
+False
+527 770 1
+True True True True True True True False True True True True True True True True True False True True True True True True True True True False True True True True True True True True True False True True True True True True False True True True True True True True True True False True True False True True False True True True False False False True True True
+680 1590 1630 560 730 1020 420 100 980 2410 4280 440 1670 1340 520 2320 1020 1760 390 610 860 2860 1470 1620 2160 420 1610 640 3550 1420 2410 2880 1170 1180 950 340 1430 5440 3750 4480 660 2240 520 2880 580 190 170 180 4940 1510 720 1050 1240 2690 150 3550 180 470 1740 150 3830 320 2770 3820 130 1970 2070 7450 2940 3240
+Recife Bonito
+True
+214 921 1
+True True True True True True True True False False True True True True True True True False True True True True True True True True False False True True True False False True True True False True True True True True False False True True True True True True True True True True False True True True True True False True False False True True True True False True
+2860 820 2150 3540 3070 3090 2880 790 2200 1070 1550 170 7680 3300 1400 100 4290 2070 1610 9030 910 460 5340 1190 1920 100 410 2660 1210 220 390 100 3310 3940 1860 3720 1450 2050 740 230 3200 270 2640 230 2180 820 4060 4660 430 2350 960 1710 1060 170 1530 100 550 550 860 2280 1170 620 2190 640 1110 6780 220 270 3200 10000
+Santa Branco dos Campos
+False
+365 294 5
+False False True False True True True False False True True True True True True False True False True True True True True True True True True False True True False True True True True True True True True True True True False True True True True True True True False True False False False True True True True True True True False False True False False False True True
+470 1550 5950 3900 1850 100 100 210 2410 1170 2960 380 4300 1330 6890 300 1480 1260 120 3440 1410 100 820 1080 1350 1320 320 1230 2770 2980 1920 6840 100 10000 1040 980 5270 1640 6440 560 1010 120 2430 1600 1210 3850 100 1070 2370 100 5570 1250 570 1720 3330 190 380 4230 520 1850 390 930 360 350 3010 3760 100 100 2590 610
+Ibate Velho da Serra
+True
+209 869 0
+True True True True False False False True True True True True True True True True False True False True True True True True True True True True True True False True False False True True True True True True True True True False False False True False True False True True True True True True True False False False True True False True True True True True False True
+2890 1410 410 2060 250 710 2670 3650 300 1860 480 1640 4980 100 430 250 120 940 480 4200 2490 1720 2700 400 170 2870 740 1490 150 3270 470 240 820 1690 2420 1730 3890 3690 1260 4320 240 690 100 5910 270 700 1670 110 1790 1970 740 480 900 1640 5380 1650 6310 470 2380 1260 360 3030 1320 6340 2810 290 1270 1730 710 1730
+Guarulhos Feliz do Sul
+False
+902 893 0
+True True True True True True False True True True True False True False True True True True True False True False True True True True False False True True True True True True True True True True True True True True True True True True True True True False True True True True True True False True True False True False True True True False True True True True
+250 7410 2630 7180 2580 2210 6500 2770 3270 1990 3830 480 2010 6070 1310 1410 1490 180 4230 680 270 1810 2980 1390 740 1170 1090 330 500 450 1260 100 720 4730 800 500 160 2580 2160 2340 370 920 1340 1700 720 140 1030 270 3740 4780 980 4970 1470 3600 2900 1410 2190 100 1740 6480 3140 590 330 730 10000 2170 4540 1100 4130 140
+Salvador Escuro
+False
+261 347 3
+True True True True True True True True True False True True True True True True False True False False True True True True True True True True False True True False True True True True True True True True True True True True True False False True True True False True False True False True True True True True False True True True True True True True True True
+400 750 1760 270 3210 2740 2090 360 4270 100 970 2070 190 920 2570 1790 1930 3550 1100 1280 1300 2050 1040 1600 1000 1500 4770 100 1320 1880 610 2440 2220 1500 6290 1030 1590 1390 180 270 2620 3040 320 140 220 320 10000 3920 190 3130 1400 370 330 580 2140 2670 1170 2070 1240 100 750 1490 560 740 1170 5960 430 1440 1930 2460
+Aparecida Bonito do Oeste
+False
+703 664 4
+True True True True False True True True False True False True True True True True True False True True True True True True True False True True True True True True True True True True True True True True True True True True True True True True False True True True True True True True True True True True True True True False False True True True True True
+840 1740 620 510 3130 300 1770 850 2750 440 160 680 1040 1060 4800 1350 2690 2680 2190 320 1380 1600 100 2390 1450 1060 1480 3730 2080 1670 750 550 3310 3350 1970 1400 3880 1070 280 1000 100 3220 880 3310 1740 200 4960 4390 3190 540 700 3930 480 1300 440 570 1150 1010 100 190 110 100 2000 820 2420 850 2550 1130 950 1880
+Cuiaba Azul do Sul
+True
+225 589 2
+True False True True True False True True True True True False False True True True True True True True False True True False False True True True False True True True True False True True True False True True True True True True True True True True False True False True True True False False True True True False True True True True True True True True True True
+900 3800 3500 200 4510 2220 1540 470 620 990 3400 1520 2280 490 2620 2210 5290 2090 1710 1910 1310 230 2720 1240 1820 5260 240 3050 4410 980 430 1460 1750 2890 790 1630 4340 330 990 390 1760 900 460 1310 3130 1960 370 880 2480 2090 3480 450 2740 800 700 1070 540 2110 2510 2340 100 280 8200 1230 360 120 160 3010 3310 2490
+Fortaleza Forte do Oeste
+False
+931 825 3
+True True True True True True True True True True True True True True False True True True True True True True True True True True False True True True True True True True True True True True False True False True True True False False True True False True True True True True True True True True True False True True True True False True True True True False
+1780 1100 100 5470 1590 760 4690 1800 5800 2710 2660 770 1950 1320 2170 2190 150 1230 970 120 2470 790 180 2020 3320 100 1570 2870 260 590 420 1210 4440 1780 1590 1160 3330 2920 1470 3000 1920 100 950 1700 820 270 730 670 1350 980 2940 180 920 2020 1600 770 980 1160 3730 870 2120 140 6180 3100 970 5000 530 100 470 140
+Nova Escuro da Serra
+False
+726 991 0
+True False True True True True True True True True True False True False True True True False True True False True True True True True False True False True False True True True True True True True True True True True True True True True True True False True True True True True True False True False True True True True True True True True True True True False
+500 680 1650 3750 630 170 1530 4660 100 660 900 8260 100 2960 2300 4060 120 780 2370 5720 1090 2000 920 460 560 380 100 7130 2200 430 4270 230 100 5670 110 550 3910 1550 760 780 10000 3930 2070 1100 3300 150 2220 320 2650 4310 1070 4770 450 3880 1290 1340 1580 160 3550 2680 480 200 6480 150 1830 800 250 380 700 5260
+Uberaba Azul dos Campos
+False
+472 469 0
+True True True True True False False True True False True True True False False False True True False True True True True True True True False True True True True True True True False True False True True True True True False True False True False True True True False True True True True True True True True True True False True True True True False True False False
+2900 2140 440 4810 1460 210 260 260 300 2890 2070 380 190 6940 280 260 360 5180 1870 2140 390 100 110 510 180 1920 1240 5440 2960 2780 950 1800 2110 140 3190 5510 4420 3140 880 4760 940 2860 320 990 740 1450 3430 4940 180 130 390 580 860 1090 580 100 3940 1810 480 4040 1300 1020 1780 1430 550 5200 730 10000 5010 1010
+Piracicaba Paraiso do Sul
+False
+208 932 2
+True True True True True False True True True True False False False True True False True True True True True True True True False True True True False False True True False True False True False True True True True True True True True True True True True True True True True True True False True True False True True True True False True False True True True True
+2120 2790 3230 5060 880 3310 5090 100 830 2030 240 830 1600 790 1500 1010 820 3310 2050 1670 150 170 4910 770 720 1910 190 650 2660 360 220 630 630 1980 1990 2910 1550 1240 550 370 7630 1190 1200 440 300 1260 100 2080 5610 6450 180 1050 1110 100 490 3030 120 1320 390 1840 3430 1590 980 360 170 340 2410 920 3180 6730
+Canoas Forte do Norte
+False
+710 47 2
+True True True True True True True True True False True True False False True True True True True True True True False False False True True True True True True False True False True True True True True True True True True True True True False True True True True True True True True True True False True False False True True False True True True True True False
+880 290 590 1110 8900 2270 640 100 3850 530 7590 470 6010 4290 1330 320 460 2460 3010 760 820 1000 4170 1020 9120 1670 2720 3370 250 100 150 200 870 540 1520 1480 310 3240 680 3410 1260 900 3740 1800 2080 3250 1070 660 1810 100 220 2660 650 770 630 1400 3640 510 290 2900 1630 1340 290 2400 1590 1170 2860 2130 360 5050
+Brasilia Doce do Sul
+False
+584 982 1
+True False True True True False True True True True True True True True False True True True True False True True True True True True True True True True True False True True False True False True True True True True True True True True False False False True False True True True True True False True True True True True True True True True True False True True
+2650 700 1470 1360 1370 100 3270 2730 520 1110 440 10000 2430 640 5990 3670 1190 690 410 2400 970 1800 590 10000 660 3350 210 190 2280 720 100 1510 110 170 550 1180 2180 100 290 1990 4120 100 6710 640 520 340 990 270 100 1040 100 190 1390 2330 1470 180 110 2670 490 330 460 4230 220 3390 2710 2540 380 4950 10000 3140
+Parana Esperanca dos Campos
+False
+633 430 0
+False False True True True True True True False True True True False True False True True True True True True True True True False False True True True False True True True False True True False True True False True True True True True True True True True True True True False False True True False True True True True True True True True True False True True False
+100 1310 2660 4210 790 520 980 2650 1250 1430 100 3790 5560 640 5520 900 100 1300 620 1720 450 330 260 2350 2220 4710 2300 1830 7920 1440 1790 2210 3540 1070 2510 890 2090 610 160 440 3370 600 400 380 2360 3900 140 230 730 1750 3660 2670 760 4930 1460 3980 100 1260 300 1690 610 1770 6030 160 2160 3400 1460 180 2530 2670
+Maringa Claro dos Campos
+False
+163 518 3
+False True True True False False False True True True True True True True True True False True True True True True False False True True True True True True True True True True False True True True True True True True False False False True True True True True True True True True True True True True True True True True True True False True True True True True
+950 1540 720 1270 710 160 1480 620 350 1380 190 2520 100 1380 2210 3760 190 1370 3840 1080 4640 1680 3080 2100 790 930 110 1880 360 100 1070 5280 2650 800 1690 6820 1470 1620 870 850 6960 3970 350 630 250 3840 2090 2250 100 2150 2300 2900 330 270 480 620 4830 2070 660 2620 2130 3630 190 260 3220 270 1510 330 3200 1040
+Noronha Escuro do Norte
+True
+101 866 3
+True True True True False True True False True True False False True True True True True True True True True True True True True True False True True False True True True True False True True True True True True True True True True True True True True True True True True True False True True True True True False True True True True True False True True True
+5680 1650 890 3610 210 1900 4800 770 3260 730 1140 390 160 1470 1530 2600 3420 2420 1190 4860 3340 1810 2100 1590 1190 2150 100 4060 1550 580 1150 3170 6010 1890 4120 1490 1560 4260 3000 590 2990 2600 380 2330 420 5120 3740 3870 1210 180 620 6370 3430 2780 420 1250 660 1680 1240 560 2610 5620 220 1950 1050 2770 790 1770 3240 380
+Fortaleza Alegre do Sul
+False
+443 76 3
+False True True False True False False True True False True True True True True True True False True True True True True False True True True True True True False True True True True True True True True True True True True True True True True True True True True True True True True True False True True True False False True True True True True True True True
+2180 7390 2420 1390 3380 2040 650 2360 2400 490 570 1840 5250 170 3240 2140 170 3450 4020 2340 780 5230 1190 100 1750 3620 2440 150 3220 660 5070 390 520 1690 5480 1990 1030 1530 3310 700 450 840 1300 1550 2090 3780 2300 580 3520 960 120 4960 5240 1790 480 100 4550 3340 100 1920 990 7260 2590 2680 3690 950 330 2250 120 1180
+Palmas Rico do Vale
+True
+812 463 0
+False True True False True True True True True True True True True True True True True False True True True True True False False False False True True True True True True True True True False False True True True True True True True False True True True True False True True False True True True True False False True True False True True True False False False False
+900 960 1790 2540 1790 750 280 430 1030 820 190 5990 1710 2680 2770 860 3710 1000 1670 800 700 8080 1200 480 2120 3130 100 930 480 690 3030 2470 430 370 2880 8370 1950 1060 410 4610 280 320 1190 2560 2330 210 2910 2300 290 670 3500 770 6810 3210 6110 430 100 690 380 100 9950 2280 7130 1380 3580 4140 860 300 3520 180
+Montes Doce das Flores
+False
+376 281 2
+True True False True True True True True True False True True False True False False True True True True True False True True False False True True True True False True True True True True True True True True True True True True True True True True True True True False True True False True False True True True False True False True True True True True True True
+1410 3110 240 3210 500 3220 1720 910 1360 810 5860 790 1000 330 1340 5280 1840 470 1480 320 3370 2460 690 980 4030 4710 100 930 1290 100 100 1590 3050 1330 680 250 2720 3530 1000 2620 10000 330 470 1650 2430 790 3730 6390 670 7760 1230 1420 2250 1870 4810 1830 3690 2320 570 6260 100 4670 9940 670 1290 100 5700 2300 5930 3870
+Manaus Forte do Vale
+False
+569 917 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True False False True True True True True True True False True True False True True True False True False True True True True True False True True True False True
+1700 930 1490 520 210 2710 1370 480 330 1970 1650 2670 340 3620 2050 1610 5710 2970 100 7380 1250 4480 1950 3110 1090 240 450 2180 280 10000 2800 5020 340 280 460 3460 1770 1260 1060 200 1060 1180 750 4550 2940 920 3910 1730 100 1170 570 1930 350 4440 1630 2960 1040 360 2350 2490 4830 2380 4370 120 100 4620 2480 450 8260 1220
+Uberlandia Escuro do Vale
+False
+293 147 2
+True True True True True False True True True True True True True True True True False True False True True False True True True True True True True True True False True True True True False True True False False True True True True True False True True True True True False True False True True False True True True True True True True True False True True True
+960 3430 290 2040 430 100 2170 430 1110 110 100 1840 2060 3660 2780 710 3650 100 3410 290 5270 480 390 1560 1650 1460 3260 3280 1350 4600 640 1190 2810 170 3050 7310 210 520 2640 2080 200 130 2120 1160 790 6620 6120 130 3120 410 100 180 1230 320 3870 4620 1310 890 4690 6930 1510 1000 330 2030 1880 1000 1490 4820 5710 2960
+Jundiai Lindo das Flores
+False
+62 466 4
+True True True True True False True False True False True True True True True False True False True False True True False True True True True True True True True False True True True True True True True False True True False True False True True True True True True True False True True True True True True True False True False True False True True True True True
+2350 1160 4210 1960 690 7180 2710 1460 2210 970 3730 2830 5640 730 3040 1120 970 1960 3240 100 1290 270 3380 4590 1350 820 4460 100 4620 100 3110 490 260 2250 250 100 460 7150 200 280 500 780 2280 940 2180 950 1900 100 530 3610 480 780 4300 2160 100 3570 5680 2310 340 1340 100 2180 6890 4190 3240 2270 6840 530 730 270
+Osasco Novo da Serra
+False
+590 345 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True
+1180 1280 3770 1830 1630 210 1100 2080 5920 100 3100 7160 2600 1830 100 1760 3360 1860 3610 9860 3550 4760 5800 1810 2330 4790 1780 2550 2460 3280 3290 4060 450 2100 610 220 1700 5500 3740 1240 2020 6290 2650 5000 1400 9040 6430 590 400 410 2440 1550 450 2550 1540 3540 100 3760 480 3360 3400 3450 100 3790 120 660 230 1930 1990 1410
+Caruaru Rico do Norte
+False
+954 322 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True False True True True True True False False True True True True False False
+650 1310 1920 3070 3610 620 900 2800 1610 5850 760 2120 1840 100 2250 660 850 1570 6440 1400 1710 7670 1390 790 280 4670 260 6990 3820 1130 5270 4480 220 2620 2720 3590 1820 100 690 540 4530 3640 2420 950 1440 560 650 3470 100 990 100 2840 2030 820 300 150 180 2310 2540 1540 400 300 380 1850 100 1240 1600 770 180 4310
+Petrolina Doce do Vale
+False
+205 297 3
+True False True False True True True True True True True True True True True True True True True True False True True True True True True True True True True False False True True False True True False False False True False True False True True True True True False True True True True False True True True True True True False True True True True True True True
+1010 1890 2890 730 4540 2110 6200 850 110 680 5530 100 1680 100 630 1270 4230 1980 340 760 4420 1120 1250 1530 6850 370 720 670 100 560 3660 260 570 2160 3450 910 850 5360 100 3660 210 150 610 100 850 100 350 1060 100 3300 1100 100 1400 1430 100 450 130 340 2480 7730 4650 5940 2230 1470 2280 3360 620 4320 4100 800
+Baixo Horizonte do Vale
+False
+152 107 3
+False True True True True True True False False False True True True True False True True True False False False True False True True True False True True True True False True True True True True True True True True False True True True True True False True True True True False True False False True True True True True False True True True True True True True True
+1280 3840 1040 990 1620 100 2560 3720 250 480 1700 520 240 1780 5700 1560 3350 1590 630 100 1950 100 950 380 500 500 1960 1520 2520 470 920 2430 400 6010 480 1820 2480 1530 100 540 2210 2200 5740 530 720 280 4440 1450 170 2510 1630 2940 140 470 330 4170 5930 3400 600 2560 2730 3910 2700 4150 2850 3990 2050 1560 100 1140
+Curitiba Lindo das Flores
+False
+322 284 70
+True True True True True True True True True True False True False True True True True True False True True True True True True True True True True True True True True True True False True False True True True True True True True True True True False True True True True True True False True True True True True True True True True True False True True True
+980 4820 330 2840 9710 1630 1410 940 400 310 130 1480 5040 4480 5710 430 380 760 1320 1220 3990 100 3020 320 4270 870 350 5390 1000 740 100 600 1760 1320 1120 3430 190 2430 2780 780 3120 100 200 2070 4240 1070 2450 5800 2540 2330 1210 400 2570 1160 180 1230 1880 110 100 2490 270 1400 160 8140 1450 1890 400 3840 3490 1860
+Contagem Azul da Serra
+False
+448 857 3
+True True True True True True True False True False True True False True True True True False True True True True True True True True True True True True False False True True True True True True True True True True True True False True True True True False False True True True False True True True True True False True False True True True True True True True
+2580 710 630 3110 1030 180 400 210 100 1670 5610 450 1990 900 1190 100 1150 2500 1840 100 1340 2640 100 2960 850 850 2670 100 1510 900 1670 4290 910 2160 520 200 1650 5280 920 320 1270 2180 1320 410 4150 3750 4630 2310 3220 3300 8010 480 4130 570 610 710 310 4060 330 100 650 180 410 1670 100 900 2700 650 480 1050
+Osasco Escuro das Flores
+False
+148 102 5
+True True True True True True True True False False True True True True True True True True False True True True False True True False True True True True True True True True True True True False False True True False True True True True True True True True True True True True True True True True False True True True True True True True True True True True
+1150 140 630 1570 420 450 680 100 1570 3770 1590 5350 2150 3120 3280 6620 2150 1090 1830 420 100 530 490 2000 950 3360 420 3560 2410 490 100 890 200 1660 160 530 1800 4900 830 1270 140 740 890 2200 180 890 3360 2410 840 3640 340 170 1820 860 4960 310 1390 310 490 3440 1750 1960 1090 110 130 1660 880 1870 2210 2840
+Goiania Alegre do Oeste
+False
+736 596 3
+True True False True True True True True True True True True True True True True True True True True True True False True False True True True True True True False False False True True True True True False True False False True True True False True True True True True True True True True True True True True True False True True True False True False True True
+100 2170 5690 3900 2130 470 750 2490 1080 2100 2200 5060 590 730 580 2390 2710 1980 100 180 6320 1890 4650 4520 860 2220 1210 570 2330 470 8110 2610 1520 3350 3010 570 1680 2410 4440 2450 4810 1390 1200 5970 630 2970 2300 500 2050 100 2040 1080 1320 1080 840 3060 310 3080 1610 1520 1300 470 6850 7430 2900 550 1680 100 1120 2600
+Vitoria Lindo do Vale
+False
+656 553 2
+True True True True True True True True True True True True False True True True True True False True True False True True False True True False True False True False True True True True True False False True False False True True True True True True True True True True True True True True True True False False True False True False False True True True True False
+5280 3700 1290 6160 650 850 4710 1230 4090 3770 2450 1170 340 1810 2190 3620 7120 3000 220 2990 2350 900 410 5820 100 2060 210 4250 750 460 140 230 2590 6160 1450 160 240 760 850 2430 1410 430 920 540 3310 1180 970 630 470 540 470 890 2850 320 150 790 1470 710 650 2330 2740 650 5840 2200 1900 3580 2420 3290 640 1800
+Bom Bonito das Flores
+False
+702 498 70
+True True True True True True False True True True True True False True True True True True True True True True False False True True True True True True True True True True True True True True False True True True False True True True True True True True True True True True False True True True True False False True True False False True True True True False
+6640 330 3080 870 290 2020 1680 2440 2860 780 1140 1630 230 890 2100 660 260 390 1010 1010 840 2020 620 660 260 3140 630 6230 7410 1810 3780 2650 1520 840 1640 1660 830 2610 3340 760 630 1080 150 640 100 2510 2450 2120 1220 9830 1120 4170 100 740 920 810 850 420 1000 1590 1060 460 390 550 790 6200 2140 7000 820 1770
+Goiania Feliz da Serra
+False
+372 581 4
+True True True False True True False True True True True True True False False True True True True False True True True True False True True False False True True True True True True False True True True False True False True True True False True True True True True True False True False True False True True True True True False True True True True True True True
+330 3970 500 330 1850 3770 260 1430 100 740 1810 1000 1260 100 2000 120 100 6370 10000 100 460 2810 10000 100 380 630 420 3290 9430 1310 100 1350 450 1580 650 3930 1830 1920 3880 6270 100 430 1880 1370 1530 3140 290 2220 1180 490 1830 110 780 2270 3020 3000 810 1840 100 2520 750 2650 1000 1600 1030 420 3030 2390 310 2940
+Baixo Paraiso do Vale
+False
+825 732 3
+True True True True True True True False True True True True False False False True True True True True True False True True True True True False True True True True False True True True True True True True True True False True True True True True False True True True True True False True True True True True True True True True True True False True True True
+5360 610 3630 1490 460 1380 6000 850 4060 2580 1780 2450 2600 3570 1690 1540 1270 3050 2370 10000 2220 2540 640 8200 3860 290 650 1210 2360 390 1040 100 2550 670 1890 1540 2980 600 1340 730 4450 210 1310 3380 2650 860 240 820 3180 1580 8880 2100 2700 1990 610 100 2400 1170 2420 220 7210 1000 210 7830 710 220 2100 100 5290 4200
+Feira Paraiso dos Campos
+False
+292 870 0
+True True True True True False True False True True True False False True True True True True True True True True False True True True True True True True True False True False True True True True True True True False True True True True True True True True True True True True False True True True True True True True True True True True True True True True
+2080 2570 490 1130 1550 2100 2930 1550 1070 550 1470 2580 2240 4410 1630 2550 1570 1530 4410 100 2570 5720 1320 560 2010 1770 1450 100 1760 100 100 220 1850 450 100 300 1970 1270 4620 100 1470 4410 5230 470 1040 240 870 6820 270 400 1540 110 1670 4870 100 2080 740 310 2050 670 3000 6300 4680 840 2690 3830 4670 5730 510 1150
+Macapa Velho do Oeste
+False
+450 985 3
+False True True True True True True False False False True True False True False True True False True True True False False True True True True True True True True True True True True True True True False True True True True True True True True True True False False True True True False False True True True True True False True True True True True True True True
+540 6200 3600 3690 810 490 800 6250 670 570 1520 610 3880 3110 600 6740 7440 8910 2060 810 190 3510 190 1010 3730 130 1120 4150 1750 920 680 100 880 6430 590 750 100 160 870 2400 1410 2940 730 150 9010 7790 2920 450 610 3970 1100 3680 1650 2430 560 480 1670 300 4880 1370 3290 930 1810 420 710 3510 410 660 3350 670
+Xique Verde da Serra
+False
+767 754 1
+False False True True True True True True True False True False True True False True False True True True True True True True True True True True True True True True False True True True True True True True True True True False True True True True True True True True True True True True False True True True True True True False True False True True True True
+140 250 4750 100 640 960 5620 680 330 1780 1250 2110 1700 1220 800 2130 5430 790 1160 430 410 2760 4810 1810 1750 700 720 850 100 3960 480 6830 2250 2730 790 710 1800 720 220 740 820 1130 820 1160 2720 760 800 1550 410 4710 830 1910 380 640 7720 930 210 2180 3000 2430 460 3660 2340 950 2550 3640 600 940 820 4460
+Foz Forte do Sul
+False
+165 173 2
+True True True True True True True True True True False True True True True True True True True True True True True True True True False True True True True False True True True True False False True True True True True True False True True True True False True True True False True True True True True True False False True True True True True True True False
+490 400 940 210 1780 170 3130 1680 380 380 2060 420 4300 1020 10000 2580 2210 980 1370 2530 430 3510 1400 2390 1640 480 3970 1580 2260 1170 2440 1270 5930 4110 940 3890 2440 230 150 700 1230 1210 3520 2370 720 1750 1080 250 4810 580 4910 6770 2310 520 360 650 2250 270 2440 1990 240 990 540 420 1160 500 370 2090 1600 660
+Salvador Escuro da Serra
+False
+227 453 70
+True True True True True True True True False True True False True True True True True True True True True True False True True True True True True True True True True True False False False True True True True True True True True True True True True True True True True True True True True True True True True True True True True True False True True True
+1100 350 380 790 730 1950 2440 240 100 1280 860 1030 4820 3250 4700 1380 100 390 680 410 380 6060 1080 100 3660 1590 1860 1550 410 120 240 100 230 1550 2710 270 2970 100 1100 7200 1480 10000 710 100 380 210 360 280 940 790 1060 590 100 5480 5500 3340 100 3690 2670 1960 770 320 8370 1040 1190 1600 1610 1210 560 3580
+Ribeirao Bonito dos Campos
+False
+349 444 1
+True True True False False True True True True True True True True True False True True True False True True True True True True True True False False False True True False True True True True True True True True True True True True True True True False True True True True True True False False True True True True True False True True True True True True False
+610 690 1410 1710 1620 2050 5970 920 150 6210 3000 3420 250 560 590 2270 290 4830 3100 550 1510 1270 860 8140 1110 2690 5290 100 870 100 1580 510 5330 3230 2950 2610 10000 730 120 1480 2740 410 1520 4810 960 2150 600 1580 3820 1260 7590 1590 130 720 430 2250 1650 570 1130 1830 520 100 120 3470 180 5690 1180 2100 5850 1360
+Monte Grande dos Campos
+False
+574 168 0
+True False True False True True True False False True True True True True False True False False True True True True True True True True False True True False True True True True False True True True True True True True True False True True True True True True True True True True True True True True False True False True True True True True True True True False
+200 3400 2790 3250 620 710 100 3420 8450 780 1530 130 690 1950 100 810 1650 1560 730 4370 2190 2360 760 450 2350 2760 970 840 1820 230 970 1530 100 3600 4090 7350 2170 1400 100 610 980 4100 3550 100 1050 5470 620 6660 1300 220 1340 210 200 100 730 1050 130 3500 970 1530 1730 8660 2890 10000 1430 2970 340 590 1970 5660
+Olinda Azul do Sul
+False
+966 141 5
+False True True True True False True True True True True True False True False True False True True True True True True True True True False False False True True False True True True True True True True True True True True True True True True True True True True True False True True True True True True True True True True True True True True True False True
+5130 100 4640 1760 630 420 2650 2950 3200 820 330 510 1540 130 1080 100 5020 1220 100 1020 140 1030 1840 1400 1830 1840 1970 2010 2800 2790 1350 1190 2870 7000 3910 7420 2620 340 2680 1530 1750 2310 120 760 1090 440 1980 800 4650 160 2810 100 7320 2960 1050 1030 1310 3170 960 6560 3640 4900 5310 1420 850 1350 1430 4160 2740 8260
+Florianopolis Verde das Flores
+False
+248 961 4
+True True True True True True True True True False True False True False False True True True True True True False True True True True True True True True True True True True False True True True True True True True True True False True True True True True True False True True True True True True True False False True True False True True False True False True
+1630 2440 4630 800 100 4730 640 1140 1160 3030 2440 3520 2110 370 10000 3870 1820 100 1530 1620 2160 500 7700 780 1190 620 4030 350 1360 160 560 10000 1320 270 530 2470 3920 1320 2000 940 1540 300 6400 1130 2400 2700 2810 2130 2230 3460 7250 1210 1720 6470 1150 810 4870 3330 220 2680 1200 3520 3590 1160 570 520 1630 1100 3710 9020
+Ananindeua Horizonte
+False
+412 42 4
+True True False True True True True True True False False False True True True False True True True True True True True False True True True True True True True True True True False True True True True False True True True True True True True True False True True True True True True True True True True True True True True True True True True False True True
+650 1430 1350 3600 1420 2450 10000 5500 1130 270 630 240 3900 3290 930 2090 150 2500 950 1700 1050 3990 910 4850 2540 1890 3150 1250 2350 1800 3490 100 1460 2020 1310 900 100 3590 5690 300 6220 6780 1040 1340 7510 2120 3010 4620 100 2020 660 2950 2300 1760 2840 2610 100 670 5020 3470 2490 420 2620 410 1940 1350 620 2520 3040 2080
+Palmas Bonito do Norte
+True
+881 422 2
+False False True True True True True True True True True True True True False True True True True False True False True True True True True True False False True True True False True True True True True True True True True False False True True True True True True True True True False True True True True True False True True False True True True True False True
+680 1010 5330 200 430 2290 410 120 370 900 9620 1320 710 2830 210 1440 1620 3150 1610 480 890 1330 9030 5340 960 2760 1210 160 2380 740 2880 2630 650 240 2560 4960 2530 130 730 4650 10000 860 910 100 4330 920 390 620 3380 2220 1220 140 2680 420 1440 5570 2340 360 1910 200 3960 1940 900 750 190 270 200 2270 2190 1940
+Bom Branco do Oeste
+False
+862 865 3
+True True True True True True True True True True True True True True False False True True False True True True True True True False True False False False True True True False True False True True True True False True True True True True True False True True False True True True True True True False True True False True True False True True True False False False
+420 4050 460 100 1950 1200 1350 1390 1000 720 490 100 460 5150 4060 10000 3460 150 630 140 2720 2810 1710 340 4160 490 2760 2230 4430 2540 1230 3310 4330 1580 2430 720 1380 100 2630 1300 3770 550 870 2130 1010 2160 1070 830 1460 3950 1260 1290 320 1220 2570 7890 220 570 3390 1360 1510 1730 5780 5040 2340 5740 100 3730 490 420
+Nova Grande do Vale
+True
+169 674 4
+True True True True True True True True True True True True True False False True False True True True True True True False True False True True False True False True False True True True True False False True True True False False True True False True True True True True False False True True True True True True True True True True True True False True True False
+310 1530 320 100 240 340 4620 1710 5020 100 100 460 540 1340 1910 240 1180 240 100 1250 2400 520 3320 3250 850 3680 1120 800 260 2230 120 380 380 1580 2470 740 1340 1370 530 1740 7590 3460 1030 2580 3190 1710 1190 610 6930 3470 2410 1120 100 6170 760 4060 1240 340 1350 100 740 240 3330 290 920 970 1650 1600 740 4240
+Bauru Branco
+False
+141 109 1
+True True True True True True True True False True True True True True False False True True False True True False False True True True True True True False True True True True False True True True True True True True True True True True False False True True True True True True False False True True True True True False False False True True True True True True
+1850 1610 360 1480 1110 1070 3580 1730 3360 1830 1880 460 2310 850 4510 110 3660 1650 770 3280 2740 530 1350 930 360 1110 720 5930 5880 2020 1110 100 120 430 950 2170 730 1600 920 170 500 2130 320 5080 5090 1340 1500 840 730 1680 840 6090 560 1650 100 960 100 1910 500 630 790 100 3740 2050 1320 1110 1090 1260 1900 3480
+Ribeirao Feliz dos Campos
+True
+833 69 0
+True True True True True False True True True False True True True True True True True True True True True True False True True True True True True True True True True True True False True True True True True True True False False True True True True True False True True True True True False True True False True True True True True True True True False False
+3120 430 590 300 2690 1970 6190 4050 3410 1860 170 10000 1790 6490 3550 5450 440 380 780 2690 240 560 700 5910 740 880 1860 160 1300 270 970 560 2690 350 220 3940 1410 3790 500 2260 1910 1000 5810 310 900 2210 3330 970 920 560 3550 1730 340 1100 100 2480 980 100 3270 440 920 2580 250 1040 320 5030 1450 640 3610 2500
+Foz Escuro do Vale
+False
+930 760 70
+True True True True True True True True False True True True True True False False False True True True True True True False False True True True True False False False True True True False True True True True True True False True False False True False True True False True True True True True True True False True False False False False False True False False False True
+100 1240 220 4740 1650 1550 1240 1340 100 200 2040 450 100 160 980 450 6100 1390 4230 320 1910 2120 6290 3710 3760 2810 1110 1290 100 420 610 600 1870 2840 590 370 800 1870 3480 2160 1520 2420 1740 3650 1410 910 270 2880 5610 4440 1910 3340 810 2280 1250 3270 1150 7970 3380 600 2180 4790 870 900 5160 820 10000 2100 7460 720
+Guarulhos Feliz dos Campos
+False
+722 258 5
+True True True True True True True True True True True True True False False True True True False True True True True True True True True True True True False True False True True True False True True True True True True False True True True True True True True True True True True True True True True True True True True True True True False True True True
+1780 2590 440 2110 3860 570 2810 850 1090 4560 4350 540 1930 1500 1350 300 1180 360 3180 340 2100 4460 2430 1210 350 1200 9640 1520 2180 460 390 5050 100 2920 3280 730 520 2560 310 2150 7410 1410 1190 3870 1140 340 790 110 860 3770 8270 100 3100 610 100 830 4020 1180 210 4210 1050 330 100 1290 360 1900 5560 2500 3740 1950
+Salvador Feliz dos Campos
+True
+219 480 3
+True False False True True True True True True False True True True False True True False True True False False True True True False True True True False False True True True True True True True False True True True True True False False False True True True True True True True True True True True True True True True True True False False False False True False True
+640 160 1740 1540 3400 1410 1630 2940 130 520 2660 2000 840 2210 5460 260 480 2800 2030 400 470 1150 1500 730 780 100 5300 150 4220 2730 2170 1350 3920 2300 1090 4530 230 1510 1250 1380 1370 6020 300 440 320 220 530 6780 7480 2000 2630 680 1700 4890 4390 1920 860 320 390 4540 4050 3480 2000 800 2820 1750 2040 1870 900 3390
+Salvador Paraiso do Oeste
+False
+221 21 4
+False True False True True True False True False True True False True True True True True True True True False False True True True False True True True True True True True True True True False True True True True True True True True True True True True True True True True True True False False True True True False False False True True True True True True True
+950 1930 1450 1630 4510 2660 8240 5530 2510 910 2190 2570 220 1620 890 2090 1470 620 360 1780 1690 230 1680 940 680 550 3710 2120 4530 6680 2800 190 6100 670 530 1650 1020 940 2430 2750 3120 1700 270 100 370 3010 520 560 200 100 3730 1780 2590 130 1630 3720 2250 360 190 5420 460 2670 5450 260 2770 1110 2750 8810 1820 3200
+Sorocaba Lindo das Flores
+False
+75 330 2
+False True True True True True False True True False True False False True True True True True True True True True True True True True True True True True True True True True True False True False True True True True True True True True True True True True True True True True True True False True True False True True True True False True True True False True
+680 460 1210 480 220 1090 320 100 330 610 5790 100 670 3090 1430 250 6460 820 1790 3680 10000 330 2440 670 470 1800 130 3370 100 1120 100 1920 670 2860 4750 1560 1040 1660 6320 100 620 3170 740 1990 3100 1710 2030 2760 1960 1770 100 1190 290 260 610 550 930 4470 2620 4290 170 490 370 1220 2800 100 680 4870 2850 470
+Guarulhos Paraiso do Oeste
+False
+260 327 0
+False False True True True True False False True True True True True True True True True True True True False False True True False True True True True False False False False False False True True True True True True True True True True False True True False True True False True True True True True True True True False True False True True False True True False True
+2160 300 610 2690 9680 410 5070 250 1970 170 210 3690 380 2210 2000 830 1820 1040 570 3360 2850 2950 3130 3140 2690 4670 690 8070 970 100 3550 2240 990 2080 1970 1020 7020 600 1490 650 4630 990 4280 1240 2300 110 590 2060 1170 290 2700 4100 3430 180 1130 2620 4530 600 440 1040 3390 1900 6090 1130 1920 4270 100 1370 2390 100
+Ribeirao Forte do Vale
+False
+173 157 3
+True True True False True True True True True True True True False False True True True True False True True False True True True True True False True True True True True True True True True True True True True True True True False False False True True False True True True False True False True True True True True True True True True True False True True True
+100 3810 100 2100 850 500 2920 160 1830 5340 1150 120 100 1110 2660 2290 330 4740 1570 760 1470 1460 2890 2430 3370 1350 2050 5450 1680 4670 690 6200 380 2360 1790 410 2420 770 1970 600 150 300 280 3410 1940 470 370 4030 8790 3810 1190 280 1490 410 1990 1150 1540 2840 160 930 5970 770 100 4060 700 1530 1320 390 1510 540
+Blumenau Sonhos do Sul
+True
+968 584 3
+True True True True True False False True True True True False True True False False True True True False True True True True True True True True True True True False True False True True True True True True True False True True True True True True True True True True True True True True True True True False True True True True False False False True False True
+620 860 640 100 830 2670 1590 100 250 1180 3830 3710 100 1220 1670 1060 1190 720 2840 4140 2670 2030 280 100 6280 1200 1560 1260 2560 550 840 1750 3900 1130 7960 6510 860 740 1770 240 2330 720 920 1620 100 6410 7380 2870 1960 1430 480 2750 2190 6370 4470 2920 2780 650 200 5090 3610 9590 4240 5010 2310 560 1170 1190 520 3420
+Campinas Esperanca do Oeste
+False
+546 862 1
+True True True True True True True True True False True True True True True True True True True False True True True True True True True True True True True True True True True True True True False True True True True True True False True True True False True True True True True True False True True True True False True True True True True False True True
+1070 3170 120 190 4500 3830 980 740 9570 1400 320 680 800 3180 100 670 2160 4350 1180 590 370 420 2770 3420 570 380 790 320 310 1440 3180 3160 170 420 160 100 690 7080 660 100 1510 2040 2040 3160 1330 940 2380 5000 740 2370 970 3290 1590 2320 990 620 4740 1940 690 1870 910 800 760 6530 650 3610 5760 100 100 1120
+Manaus Esperanca do Oeste
+False
+992 902 0
+True True True True True True True True False True True False True True True True True True True False True True True True False True True True False True True True True True True True True True True False True True False True True True False True True True True True True True True True True True True True True True True True True True False True False False
+1290 1750 6980 180 230 100 1870 5840 4020 100 100 1800 2430 340 210 130 3840 1070 860 2600 1500 2410 10000 1660 990 1320 1300 1590 100 840 1560 3560 1100 2540 2370 270 8690 2690 5850 580 1760 530 900 1750 6960 1460 240 420 390 2060 890 160 510 1020 2470 1290 1420 160 2680 180 130 940 1450 3760 400 2030 900 10000 100 2210
+Franca Sonhos dos Campos
+False
+593 15 3
+True True True True True True True True True True False False True True True True True True False False True True False False True True True True False True True True True True True False True True True True True True True True True True True True True False True True True True False False True True True True True True True True True True True True False False
+1200 1160 390 1500 490 4250 3000 250 1670 560 2570 3760 870 220 850 310 360 1370 1700 100 1930 610 1360 6290 4900 720 2310 3230 1280 1810 1210 420 5170 1150 100 460 2300 3440 300 2190 750 1690 5710 4120 1420 2010 100 2760 1820 960 340 1930 3110 2000 1470 4430 390 230 100 400 5430 460 200 2430 830 1100 460 1590 2440 7360
+Alto Azul das Flores
+False
+509 460 4
+True True True True True True True True False True False True True True True False True True True True True False True True True True True True True False False False True True True True True True True True False True False True True True True False True True True True True True True True True False True True True True False True True False True False True True
+7120 590 350 220 240 740 380 1030 1470 4930 940 490 990 5420 1820 580 1170 6770 1030 950 2880 800 5490 890 5730 100 1500 2450 2850 3530 2210 1940 200 3550 1210 3090 6470 2250 5660 1510 3900 100 100 1310 570 250 7140 400 640 300 180 670 2210 520 1470 1960 3370 150 840 1750 100 1410 7950 4330 620 2500 2430 2750 1970 1430
+Bela Rico do Oeste
+False
+223 725 5
+True True True False True True True True True True True True True True True True True True True True True True True True True True True True True False True True False False True True False True False True True False True True True True True True True True True True True True True True True True True False True True True True True True True True True True
+4360 1250 6270 1360 760 2440 10000 3020 1940 1080 540 1140 3960 760 870 100 1060 1960 1400 550 1480 1760 2750 240 1160 4810 1800 4040 3600 990 6100 1120 4320 530 4620 840 5970 2520 1710 440 220 2110 3170 1890 5160 3610 2800 610 100 2570 1820 1040 2170 1640 2920 2230 1960 1490 5010 100 450 490 430 290 1660 570 280 3980 2150 1140
+Salvador Bonito da Serra
+False
+273 16 3
+True True False True True True True True True True True False True True True False True True True True True True True False True False False True True True True True True True True True True True True False False False True True True True True True False True True True True True True True True True True True True True True True False True True False True True
+1590 410 2910 2740 2350 180 1000 830 2400 1760 2710 100 1650 160 3980 1820 750 730 900 160 1170 1560 130 2290 100 2700 2980 4320 5100 2240 350 1300 260 100 3100 180 3640 1240 1880 1960 2030 810 390 2450 3620 7040 1400 1830 940 480 1790 10000 1870 430 2060 240 920 1490 2360 5300 1160 1970 760 2240 900 1770 1020 2410 1000 2940
+Juiz Lindo do Norte
+False
+99 502 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True False True True True True True False True True True False True False False True False True False True False False True True True True True False False True True True True False False False True True
+3490 130 1730 970 250 1080 2230 100 240 2620 5940 330 170 1220 5620 580 1160 2990 2710 6220 390 2570 2970 3110 890 3000 190 1840 810 200 2340 2580 3630 1800 820 3880 2540 100 4890 890 1140 480 1820 8740 330 1240 2650 1650 320 2580 180 790 1980 6210 1110 1800 510 100 4170 310 730 1100 1840 1350 100 2020 450 2440 940 310
+Cuiaba Paraiso das Flores
+False
+285 11 0
+True True False False True True True True True True True True True False True True True False True True True True True True True True False True True True True True True True True True True False True False True False False True True True False True True False True True False True True True True True True True True True False True False True True True True True
+650 2670 330 1030 530 370 3390 860 2120 700 190 620 2430 4250 2310 2110 4860 1850 560 6100 360 10000 390 2180 100 780 1350 2780 110 3230 300 1000 320 130 960 1900 1070 280 5600 1770 2460 110 960 880 2370 490 1150 550 660 160 270 470 400 320 600 630 1460 100 1480 8650 340 6240 220 510 320 1720 10000 940 2720 2540
+Caxias Claro do Norte
+False
+416 181 0
+True True True False False True True True True True True True True True True True True True True True True True False True False True False True True True True True False True False True False False False True True True True True True False False True True True True True True True True True True True True True False True False True True True True False True True
+10000 2920 170 710 3980 100 2500 5960 240 650 1680 2810 350 120 520 1420 750 900 1260 1730 100 1950 220 3520 230 680 930 100 100 1730 1380 3170 680 1160 100 2730 670 690 5570 3010 3060 5510 1460 1430 1620 2400 970 1030 300 7000 2330 10000 5290 5630 290 950 330 2180 1020 3320 2150 3030 1230 510 1460 420 690 2690 2880 120
+Santos Doce do Norte
+False
+588 486 1
+True True True True True True True False True True False False False True False True True True True True True False True True False False True False True False False True False True True False False False True True True False True True True True True True True True True True True True False True True True True False True True True True True True False True True False
+610 5030 3340 810 2570 280 1010 3890 410 1880 570 830 950 270 520 3590 1220 650 2150 4300 1270 590 550 1950 1120 7990 1870 4610 2200 4860 1030 2280 1860 1730 100 2310 3230 630 560 100 1080 980 1900 1650 2410 3030 4730 1380 600 400 1440 1130 1330 340 1240 1590 2180 9970 190 1480 2140 710 2520 1750 1020 2060 1840 480 100 800
+Bauru Alegre dos Campos
+False
+271 626 1
+False True True True True True True True True True True True True True True True True True True True True True True True False True True True True True True True True True True False True True True True False True True True False True True True True True True True True True True True True True True False True True False True False True True True True True
+250 5700 1200 1240 2040 2980 1560 100 4240 2190 6350 890 930 1350 1850 760 190 1110 1150 710 1370 8260 1430 1060 670 310 3200 630 1960 1660 1460 280 2870 720 230 100 7520 280 1070 3570 6790 100 1760 5890 470 2990 100 560 120 4620 1600 1580 10000 240 530 3970 1010 410 110 930 1480 230 3200 440 940 5690 4440 1590 7190 1400
+Ribeirao Esperanca da Serra
+False
+231 517 4
+True False True False True False True False False True True True True True True True True False True True False True False True True False True True True True True True True True True True True True True False False True True True True False True True True True True True True False False False True True True True True True False True False True True True True True
+160 2390 1530 140 2030 100 100 580 600 280 3020 3010 970 390 1140 2520 3140 5040 8970 1280 1700 810 1880 2110 1430 1980 2350 290 4980 2480 280 2100 4470 330 4610 8890 4480 100 2450 2520 900 1060 2360 290 3480 3740 2110 890 280 3250 2280 670 3230 2650 1740 1130 3350 4500 880 940 910 8190 510 570 1410 180 1190 1770 240 340
+Maringa Alegre do Vale
+False
+801 706 0
+True True True True False True True True True False True True True False True True True True True True True False True False True True True False True False True True True False True True False True True True True False True True False True True True True False True False False False True True True True True False True True True True True False True True True True
+480 1320 860 190 2190 1570 210 3850 2260 1580 5310 980 3050 660 3680 5430 550 1100 3380 1480 640 1100 3350 600 710 1130 250 280 1060 1640 4450 100 1250 1240 1220 5150 1990 1210 1470 1130 3060 890 190 420 2950 930 1720 710 720 460 1730 100 1470 1470 850 2700 220 1370 1270 590 980 340 610 820 1740 2780 1580 2950 560 790
+Vitoria Doce dos Campos
+False
+633 330 1
+True True True True False True True False False True True True True False True True False True True True True True True False True True True True True False False True True True True True True False False True False True True True True True True True True True True False True True True True True True True False True True True True True False True True False True
+3510 1950 2260 2120 1250 750 330 240 4200 7080 4520 3650 550 2750 290 250 2120 1440 2020 10000 9030 7700 370 530 380 8390 3420 1300 2920 560 200 2510 3150 670 260 2450 4620 170 3220 460 1220 1390 5000 2360 3000 280 6700 490 190 4210 480 2210 950 1920 3270 100 1110 3160 860 1130 1400 9040 1430 3410 190 100 1640 130 100 2450
+Alto Escuro do Oeste
+False
+844 751 4
+True True True True False True False False True False False True True True True True True True False False False True True False True False False True True True True True True False True True True True True True True False False True True True True False True True False False True True True True True True True True True True True False False True False True False True
+2030 2180 1920 4580 3050 2200 2850 3120 190 1130 4350 4330 2270 3430 380 1240 1420 430 1140 700 540 2320 2200 640 1750 540 2360 6900 890 1630 800 1470 1430 1380 4910 1350 710 1460 1470 1730 1800 5300 1580 1960 2580 1440 300 740 3790 300 110 440 1040 340 1410 1080 960 610 700 3570 1190 7700 100 3170 2330 960 650 110 290 8020
+Alagoas Bonito do Vale
+False
+14 407 5
+False True False False True False False True True True True True False True True True True True True True True True True True True True True True True False True True True True True True False False False True True True True True True True False False True False True True False True True True False True True True True True False True True True True True True True
+810 550 690 1410 3200 100 1520 5510 620 600 620 1490 100 160 1910 6740 1190 3430 930 1030 3290 1980 420 330 490 2240 1560 780 6390 580 650 1530 1910 1150 4720 1840 2020 200 160 2870 5380 3030 6690 2130 2300 570 580 950 6080 630 100 120 1140 810 790 100 5210 1620 440 1070 2290 3340 5520 3520 5040 1550 2240 1550 6220 7760
+Aracaju Azul do Oeste
+False
+511 316 0
+False True False True False True True True False True True True True True True True True True True False True True True True True False True True True True True False False True True True True True True True True True False False False True True True True True True True False True False False False True True False True True True True True True True False False False
+900 5070 1330 390 860 150 1470 1200 450 2840 380 100 4600 370 250 1730 1870 3120 1740 740 760 6130 3390 2120 1810 2450 3170 520 1150 1060 1250 640 5050 210 410 1450 710 770 1260 960 3060 1340 1580 1590 650 1950 410 4150 240 110 530 930 1290 740 330 510 430 220 1150 450 270 6220 900 7690 1790 1380 2290 1380 1370 740
+Uberlandia Novo dos Campos
+True
+931 442 1
+False True True True True False True True True True True True True True False True True True True True True True True True True True True True True True True True True False False True True True True True True True True True True True True True False True True True True True True True True False True False True True True False True True True True True True
+4930 810 1660 4080 3310 1020 290 350 3410 110 980 2500 1040 630 1210 5490 170 240 1850 4410 200 150 1290 3500 380 2570 740 2020 2690 5380 1570 100 540 2740 950 3420 3370 490 3700 2500 100 2560 2350 1460 1220 3470 4710 4510 460 890 1620 750 1620 100 220 360 2250 440 910 200 5490 2020 670 400 2210 110 6940 690 610 330
+Sorocaba Doce do Sul
+False
+856 246 5
+True True True True True True False True False False True True True True True False True True True True True True True True True True False True True True False False True False True True True False False True True True True True True True True True True False True True True True True True False True True False False True False False True True True True False True
+2210 2300 100 5100 1260 280 1710 270 5710 1360 4120 2460 3750 200 330 2460 1170 1210 8320 590 2420 2670 3180 480 3690 160 550 1060 300 2310 1630 480 2960 1990 2210 4110 390 800 3930 890 2400 760 3770 1540 580 1000 900 3780 1830 1380 310 600 3010 4820 1410 4770 2390 840 1450 190 940 4000 2530 4590 4930 2620 130 800 880 5650
+Ananindeua Azul do Vale
+True
+792 534 4
+True False True True True True True True True True True True True False True True True True True True True False True True False True True True True True True True True True True True True True True False True True False True True True True True True True True True True True True True False True True True True True True False True False False True True True
+2180 1930 1540 10000 8740 180 660 930 2320 1060 130 4970 2480 220 750 2260 3870 4750 2820 2060 1110 1510 2520 100 1870 1600 4000 1770 1420 880 1750 780 4180 610 590 500 580 1800 1750 5900 5650 4140 1040 580 2150 720 2850 1160 1780 3780 130 760 1940 110 1400 5510 820 1250 590 760 780 1150 990 820 160 390 1620 4180 1560 520
+Macapa Claro do Norte
+False
+255 594 5
+False True True False True True True True True True True False True True True False True False True True True True True True True True True True True True True True True False True False True True True True False True False True True True False True True True True True True True True False True True False True False False True False True False True True True True
+5970 4250 380 1490 4000 2410 1610 6690 2830 1370 500 1380 8430 2160 1860 1460 1210 850 100 100 980 920 100 9290 820 2310 2580 4730 2800 3400 1170 580 1590 2700 180 120 100 4480 3320 1000 1840 7140 470 2960 820 450 2010 100 6150 1470 3360 2140 1590 2320 3310 3510 3350 2270 1920 7460 410 1350 590 680 1870 3290 1760 470 1980 5630
+Palmas Rico do Norte
+False
+641 970 5
+True False True True True True True True False False False True True True False True True True True True True True True True True False False True True True True True True False True True True False True True True True False True False True True True True True True True True False True True True True True False True False True True True True True True True False
+3450 140 1440 2020 1870 600 550 2300 1320 260 10000 1460 910 3390 1100 1020 670 1690 350 370 4930 1570 140 210 3560 240 2310 2190 350 1380 1590 600 1120 3920 320 1350 3800 470 2700 410 360 2190 500 780 2050 1300 620 170 3220 4290 580 270 1950 3060 1190 1660 5090 450 1870 1370 2390 100 1390 230 1620 1090 3340 930 730 2520
+Salvador Grande do Vale
+False
+960 396 4
+False True True False False True True False True True True True True True False True True True False False True True False True True False True True True True True True True True True True False True True True True False True True True False False True False True True True True True True False True False False False True True False True True True True True True True
+2520 5850 2180 700 3490 10000 2880 4890 370 260 910 390 420 4570 2550 650 880 190 3030 1410 560 210 820 3190 2220 430 380 100 4890 860 220 1200 2280 430 960 270 2160 2400 2900 1520 1200 1010 5720 980 170 5130 2560 2000 260 580 280 3940 100 150 1740 3150 2780 1060 3460 7820 740 1590 1610 1280 2980 4510 130 2790 1580 720
+Vila Paraiso
+False
+920 449 70
+True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True True False True True False True True True True True True True True False True False False True True False True True True True True True True True True True True True True True False
+2170 100 2720 760 1260 920 3720 350 3210 2950 3730 440 3790 370 3320 790 240 100 1060 2780 240 1740 100 150 660 1610 430 3790 1560 3430 1260 100 2750 1840 4870 830 2180 150 3890 2890 890 1080 6600 130 1710 1190 2320 3050 6770 100 690 600 1950 2630 4440 730 2170 720 1610 700 1070 2750 380 100 3250 260 3700 3260 340 3460
+Monte Azul
+False
+241 994 5
+True True True True True False False True False True True True True True True True True True True True False False True True True True True True False False True True True True True True True True True True True True True True True False True True False True True True True True False True True True True True True True True True True False True True True True
+820 960 1000 4480 100 5190 4770 1560 680 1300 1670 5370 510 3670 4990 3510 1060 1540 3400 1380 140 690 1210 590 1490 3370 100 2160 1890 10000 220 5080 180 100 4810 3090 1990 1400 4430 170 2490 1620 2600 1160 3490 640 1520 5370 820 620 370 6060 160 2060 830 650 1320 1760 500 3160 730 990 5500 100 3780 5180 7670 1840 2900 1730
+Gladiadores da Capital
+22 732 755
+Guerreiros da Capital
+427 787 774
+Furacões Clube
+772 993 977
+Tubaroes do Norte
+273 16 829
+Centauros Azul
+139 323 925
+Guerreiros Alegrense
+736 596 452
+Falcões da Capital
+153 475 757
+Guerreiros do Vale
+655 321 1011
+Águias da Capital
+520 445 509
+Leões Azul
+960 396 670
+Titãs Clube
+633 35 1111
+Tubaroes Azul
+960 396 754
+Titãs Paulista
+59 184 1111
+Vikings Alegrense
+862 865 515
+Tubaroes do Sul
+92 623 606
+Touros Azul
+792 144 810
+Dragões 
+588 486 1041
+Panteras Otimo
+180 957 773
+Vikings Central
+856 947 759
+Guerreiros Azul
+165 173 1004

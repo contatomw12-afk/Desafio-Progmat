@@ -1,0 +1,62 @@
+0.045 0.008 0.041 0.020
+8 10 5
+Niteroi Bonito do Sul
+False
+190 682 0
+False True True True True True True True
+1740 960 290 100 100 100 470 1350
+Jundiai Alegre do Sul
+True
+702 93 8
+True True True True True True True True
+3420 1180 100 5410 1030 100 1010 1760
+Brasilia Horizonte do Norte
+False
+364 856 1
+True True True False False True True True
+2940 2220 5290 1330 1300 100 1920 600
+Caruaru Verde do Sul
+False
+547 445 2
+True True True False False True True True
+1420 8360 100 2270 230 1670 4610 450
+Baixo Lindo do Norte
+False
+591 929 2
+True True True True True True True True
+3960 490 580 990 2820 4760 630 5680
+Ponta Azul dos Campos
+False
+318 635 8
+True True False True True True True True
+2870 2130 400 1170 6240 5520 2270 920
+Joinville Claro
+False
+468 900 4
+True True True True True True True True
+1990 1340 2140 2940 3870 650 1620 2710
+Aparecida Paraiso do Oeste
+False
+850 195 2
+True True True True True True True True
+4710 1780 410 670 6460 2890 3400 9460
+Pelotas Esperanca da Serra
+False
+683 2 8
+True True True True True True True True
+4470 420 1580 3130 510 100 2160 2240
+Santo Rico
+False
+654 261 5
+False True True True True True True True
+510 740 670 1170 190 100 530 480
+Gladiadores Paulista
+200 762 976
+Furacões Otimo
+722 49 906
+Tigres Caribe
+327 752 427
+Centauros Passos
+591 929 902
+Samurais Clube
+499 515 733
