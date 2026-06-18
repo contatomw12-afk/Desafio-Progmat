@@ -40,14 +40,14 @@ def ler_instancia(caminho):
                 break
             partes_nome.append(t)
         nome = ' '.join(partes_nome)
-        coord_x, coord_y, semanas_prep = int(proximo()), int(proximo()), int(proximo())
+        x, y, semanas_prep = int(proximo()), int(proximo()), int(proximo())
         disponivel    = [proximo() == 'True' for _ in range(num_semanas)]
         populacao_int = [int(proximo())      for _ in range(num_semanas)]
         cidades.append({
             'nome':          nome,
             'obrigatoria':   obrigatoria,
-            'x':             coord_x,
-            'y':             coord_y,
+            'x':             x,
+            'y':             y,
             'semanas_prep':  semanas_prep,
             'disponivel':    disponivel,
             'populacao_int': populacao_int,
@@ -60,12 +60,12 @@ def ler_instancia(caminho):
             t = proximo()
             try: ex = int(t); break
             except ValueError: partes_nome.append(t)
-        ey, dist_max = int(proximo()), int(proximo())
+        ey, distancia_max = int(proximo()), int(proximo())
         equipes.append({
             'nome':     ' '.join(partes_nome),
             'x':        ex,
             'y':        ey,
-            'dist_max': dist_max,
+            'dist_max': distancia_max,
         })
 
     return alfa, beta, gama, phi, num_semanas, num_cidades, num_equipes, cidades, equipes
@@ -110,13 +110,13 @@ def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
 
     # matriz de distâncias entre cidades
     M = len(cidades)
-    matriz_dist = [[0] * M for _ in range(M)]
+    matriz_distancia = [[0] * M for _ in range(M)]
     for i in range(M):
         for j in range(i + 1, M):
             d = distancia(cidades[i]['x'], cidades[i]['y'],
                           cidades[j]['x'], cidades[j]['y'])
-            matriz_dist[i][j] = d
-            matriz_dist[j][i] = d
+            matriz_distancia[i][j] = d
+            matriz_distancia[j][i] = d
 
     def func_obj(atribuicao):
         num_semanas = len(atribuicao)
@@ -126,9 +126,9 @@ def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
         num_part, custo_reuniao = cache_reuniao[primeira]
 
         # distância do evento: percorre as cidades e volta para a primeira (despedida)
-        custo_evento = sum(matriz_dist[atribuicao[k]][atribuicao[k + 1]]
+        custo_evento = sum(matriz_distancia[atribuicao[k]][atribuicao[k + 1]]
                            for k in range(num_semanas - 1))
-        custo_evento += matriz_dist[atribuicao[-1]][primeira]
+        custo_evento += matriz_distancia[atribuicao[-1]][primeira]
 
         # total de pessoas que assistiram
         total_publico = sum(cidades[atribuicao[s]]['populacao_int'][s]
@@ -139,12 +139,12 @@ def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
                 - gama * total_publico
                 - phi  * num_part)
 
-    return func_obj, matriz_dist, cache_reuniao
+    return func_obj, matriz_distancia, cache_reuniao
 
 # delta objetivo para swap
 
 def delta_swap(pos_i, pos_j, atribuicao, alfa, beta, gama, phi,
-               cidades, matriz_dist, cache_reuniao):
+               cidades, matriz_distancia, cache_reuniao):
     """
     Calcula a variação no objetivo ao trocar as posições i e j,
     sem recalcular tudo do zero.
@@ -164,24 +164,24 @@ def delta_swap(pos_i, pos_j, atribuicao, alfa, beta, gama, phi,
     def aresta(a, b):
         if a < 0 or b < 0 or a >= num_semanas or b >= num_semanas:
             return 0
-        return matriz_dist[atribuicao[a]][atribuicao[b]]
+        return matriz_distancia[atribuicao[a]][atribuicao[b]]
 
     dist_antes = (aresta(pos_i - 1, pos_i) + aresta(pos_i, pos_i + 1)
                 + aresta(pos_j - 1, pos_j) + aresta(pos_j, pos_j + 1))
     # aresta de retorno à cidade inicial
     if pos_i == num_semanas - 1:
-        dist_antes += matriz_dist[atribuicao[pos_i]][atribuicao[0]]
+        dist_antes += matriz_distancia[atribuicao[pos_i]][atribuicao[0]]
     if pos_j == num_semanas - 1:
-        dist_antes += matriz_dist[atribuicao[pos_j]][atribuicao[0]]
+        dist_antes += matriz_distancia[atribuicao[pos_j]][atribuicao[0]]
 
     # simula o swap temporariamente
     atribuicao[pos_i], atribuicao[pos_j] = atribuicao[pos_j], atribuicao[pos_i]
     dist_depois = (aresta(pos_i - 1, pos_i) + aresta(pos_i, pos_i + 1)
                  + aresta(pos_j - 1, pos_j) + aresta(pos_j, pos_j + 1))
     if pos_i == num_semanas - 1:
-        dist_depois += matriz_dist[atribuicao[pos_i]][atribuicao[0]]
+        dist_depois += matriz_distancia[atribuicao[pos_i]][atribuicao[0]]
     if pos_j == num_semanas - 1:
-        dist_depois += matriz_dist[atribuicao[pos_j]][atribuicao[0]]
+        dist_depois += matriz_distancia[atribuicao[pos_j]][atribuicao[0]]
     atribuicao[pos_i], atribuicao[pos_j] = atribuicao[pos_j], atribuicao[pos_i]  # desfaz
 
     delta += beta * (dist_depois - dist_antes)
@@ -197,7 +197,7 @@ def delta_swap(pos_i, pos_j, atribuicao, alfa, beta, gama, phi,
 
 # construção gulosa 
 
-def construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
+def construir_gulosa(num_semanas, cidades, matriz_distancia, func_obj,
                      aleatorio, cidades_obrigatorias, top_k=4):
     """
     Constrói uma solução de forma gulosa aleatorizada:
@@ -242,9 +242,9 @@ def construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
         def pontuacao(idx):
             custo_dist = 0
             if idx_anterior is not None:
-                custo_dist += matriz_dist[idx_anterior][idx]
+                custo_dist += matriz_distancia[idx_anterior][idx]
             if idx_proxima is not None:
-                custo_dist += matriz_dist[idx][idx_proxima]
+                custo_dist += matriz_distancia[idx][idx_proxima]
             return custo_dist - cidades[idx]['populacao_int'][semana] * 50
 
         ranking = sorted(candidatas, key=pontuacao)
@@ -258,7 +258,7 @@ def construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
 # busca local completa (swap + or-opt) 
 
 def busca_local_completa(atribuicao, cidades, func_obj, cidades_obrigatorias,
-                         matriz_dist, cache_reuniao, alfa, beta, gama, phi):
+                         matriz_distancia, cache_reuniao, alfa, beta, gama, phi):
     melhor = list(atribuicao)
     melhor_obj = func_obj(melhor)
     n = len(melhor)
@@ -270,7 +270,7 @@ def busca_local_completa(atribuicao, cidades, func_obj, cidades_obrigatorias,
         for i in range(n):
             for j in range(i + 1, n):
                 delta = delta_swap(i, j, melhor, alfa, beta, gama, phi,
-                                   cidades, matriz_dist, cache_reuniao)
+                                   cidades, matriz_distancia, cache_reuniao)
                 if delta < -1e-9:
                     melhor[i], melhor[j] = melhor[j], melhor[i]
                     if solucao_factivel(cidades, melhor, cidades_obrigatorias):
@@ -306,7 +306,7 @@ def busca_local_completa(atribuicao, cidades, func_obj, cidades_obrigatorias,
 #  busca local rápida (swap, poucos passes) 
 
 def busca_local_rapida(atribuicao, cidades, func_obj, cidades_obrigatorias,
-                       matriz_dist, cache_reuniao, alfa, beta, gama, phi, passes=2):
+                       matriz_distancia, cache_reuniao, alfa, beta, gama, phi, passes=2):
     melhor = list(atribuicao)
     melhor_obj = func_obj(melhor)
     n = len(melhor)
@@ -316,7 +316,7 @@ def busca_local_rapida(atribuicao, cidades, func_obj, cidades_obrigatorias,
         for i in range(n):
             for j in range(i + 1, n):
                 delta = delta_swap(i, j, melhor, alfa, beta, gama, phi,
-                                   cidades, matriz_dist, cache_reuniao)
+                                   cidades, matriz_distancia, cache_reuniao)
                 if delta < -1e-9:
                     melhor[i], melhor[j] = melhor[j], melhor[i]
                     if solucao_factivel(cidades, melhor, cidades_obrigatorias):
@@ -332,7 +332,7 @@ def busca_local_rapida(atribuicao, cidades, func_obj, cidades_obrigatorias,
 # simulated annealing 
 
 def simulated_annealing(atribuicao, cidades, func_obj, cidades_obrigatorias,
-                        matriz_dist, cache_reuniao, alfa, beta, gama, phi,
+                        matriz_distancia, cache_reuniao, alfa, beta, gama, phi,
                         aleatorio, tempo_disponivel):
     n = len(atribuicao)
     atual = list(atribuicao)
@@ -410,7 +410,7 @@ def resolver(caminho_instancia, limite_tempo):
     alfa, beta, gama, phi, num_semanas, num_cidades, num_equipes, cidades, equipes = \
         ler_instancia(caminho_instancia)
 
-    func_obj, matriz_dist, cache_reuniao = criar_funcao_objetivo(
+    func_obj, matriz_distancia, cache_reuniao = criar_funcao_objetivo(
         alfa, beta, gama, phi, cidades, equipes)
 
     cidades_obrigatorias = {i for i, c in enumerate(cidades) if c['obrigatoria']}
@@ -424,7 +424,7 @@ def resolver(caminho_instancia, limite_tempo):
         if tempo_decorrido() > limite_tempo * 0.25:
             break
         aleatorio.seed(semente)
-        sol = construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
+        sol = construir_gulosa(num_semanas, cidades, matriz_distancia, func_obj,
                                aleatorio, cidades_obrigatorias, top_k=4)
         if sol and solucao_factivel(cidades, sol, cidades_obrigatorias):
             pool_gulosa.append((func_obj(sol), sol))
@@ -432,7 +432,7 @@ def resolver(caminho_instancia, limite_tempo):
     if not pool_gulosa:
         for semente in range(10000):
             aleatorio.seed(semente + 99999)
-            sol = construir_gulosa(num_semanas, cidades, matriz_dist, func_obj,
+            sol = construir_gulosa(num_semanas, cidades, matriz_distancia, func_obj,
                                    aleatorio, cidades_obrigatorias, top_k=1)
             if sol and solucao_factivel(cidades, sol, cidades_obrigatorias):
                 pool_gulosa.append((func_obj(sol), sol))
@@ -450,7 +450,7 @@ def resolver(caminho_instancia, limite_tempo):
             break
         sol_mel, obj_mel = busca_local_completa(
             sol, cidades, func_obj, cidades_obrigatorias,
-            matriz_dist, cache_reuniao, alfa, beta, gama, phi)
+            matriz_distancia, cache_reuniao, alfa, beta, gama, phi)
         pool_bl.append((obj_mel, sol_mel))
 
     pool_bl.sort(key=lambda x: x[0])
@@ -461,7 +461,7 @@ def resolver(caminho_instancia, limite_tempo):
     aleatorio.seed(7777)
     sol_sa, obj_sa = simulated_annealing(
         melhor_sol, cidades, func_obj, cidades_obrigatorias,
-        matriz_dist, cache_reuniao, alfa, beta, gama, phi,
+        matriz_distancia, cache_reuniao, alfa, beta, gama, phi,
         aleatorio, tempo_sa)
     if obj_sa < melhor_obj - 1e-9:
         melhor_sol, melhor_obj = sol_sa, obj_sa
@@ -470,7 +470,7 @@ def resolver(caminho_instancia, limite_tempo):
     if tempo_decorrido() < limite_tempo * 0.82:
         melhor_sol, obj_pos_sa = busca_local_completa(
             melhor_sol, cidades, func_obj, cidades_obrigatorias,
-            matriz_dist, cache_reuniao, alfa, beta, gama, phi)
+            matriz_distancia, cache_reuniao, alfa, beta, gama, phi)
         if obj_pos_sa < melhor_obj:
             melhor_obj = obj_pos_sa
 
@@ -496,7 +496,7 @@ def resolver(caminho_instancia, limite_tempo):
 
         tentativa, obj_tent = busca_local_rapida(
             tentativa, cidades, func_obj, cidades_obrigatorias,
-            matriz_dist, cache_reuniao, alfa, beta, gama, phi, passes=3)
+            matriz_distancia, cache_reuniao, alfa, beta, gama, phi, passes=3)
 
         if obj_tent < ils_melhor_obj - 1e-9:
             ils_melhor = tentativa
