@@ -358,7 +358,7 @@ def simulated_annealing(atribuicao, cidades, func_obj, cidades_obrigatorias,
             i, j = aleatorio.sample(range(n), 2)
             tentativa[i], tentativa[j] = tentativa[j], tentativa[i]
         elif tipo_movimento == 1:
-            # or-opt: remove e reinsere em outro lugar
+            # or-opt
             i = aleatorio.randrange(n)
             j = aleatorio.randrange(n)
             cidade = tentativa.pop(i)
@@ -443,7 +443,7 @@ def resolver(caminho_instancia, limite_tempo):
     pool_gulosa.sort(key=lambda x: x[0])
     melhores_gulosa = [sol for _, sol in pool_gulosa[:20]]
 
-    # Fase 2: busca local completa nas melhores gulosa (25% do tempo)
+    #  busca local completa nas melhores gulosa (25% do tempo)
     pool_bl = []
     for sol in melhores_gulosa:
         if tempo_decorrido() > limite_tempo * 0.50:
@@ -456,7 +456,7 @@ def resolver(caminho_instancia, limite_tempo):
     pool_bl.sort(key=lambda x: x[0])
     melhor_obj, melhor_sol = pool_bl[0]
 
-    # Fase 3: simulated annealing (25% do tempo) 
+    # simulated annealing (25% do tempo) 
     tempo_sa = limite_tempo * 0.25
     aleatorio.seed(7777)
     sol_sa, obj_sa = simulated_annealing(
@@ -474,7 +474,7 @@ def resolver(caminho_instancia, limite_tempo):
         if obj_pos_sa < melhor_obj:
             melhor_obj = obj_pos_sa
 
-    # Fase 4: ILS com busca local rápida (tempo restante)
+    # ILS com busca local rápida (tempo restante)
     ils_melhor = list(melhor_sol)
     ils_melhor_obj = melhor_obj
     sem_melhora = 0
