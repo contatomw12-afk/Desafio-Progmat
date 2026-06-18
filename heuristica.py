@@ -11,14 +11,14 @@ Sem multi-thread. Sem dependências externas.
 
 import sys, math, random, time
 
-# ─────────────────── utilidades ───────────────────────────────────────────────
+
 
 def distancia(ax, ay, bx, by):
     return round(math.sqrt((bx - ax) ** 2 + (by - ay) ** 2))
 
-# ─────────────────── leitura da instância ─────────────────────────────────────
 
-def ler_instancia(caminho):
+
+def ler_arquivo(caminho):
     with open(caminho, encoding='utf-8') as arquivo:
         tokens = arquivo.read().split()
     pos = 0
@@ -72,10 +72,10 @@ def ler_instancia(caminho):
 
     return alfa, beta, gama, phi, num_semanas, num_cidades, num_equipes, cidades, equipes
 
-# ─────────────────── verificação de factibilidade ─────────────────────────────
+
 
 def cidade_pode_sediar(cidade, semana):
-    """Verifica se a cidade pode sediar o evento na semana dada (índice 0)."""
+    #Verifica se a cidade pode sediar o evento na semana dada (índice 0).
     if not cidade['disponivel'][semana]:
         return False
     for k in range(1, cidade['semanas_prep'] + 1):
@@ -85,7 +85,7 @@ def cidade_pode_sediar(cidade, semana):
     return True
 
 def solucao_factivel(cidades, atribuicao, cidades_obrigatorias):
-    """Verifica se a atribuição é factível: sem repetição, disponibilidade e obrigatórias."""
+    #Verifica se a atribuição é factível: sem repetição, disponibilidade e obrigatórias.
     usadas = set()
     for semana, idx_cidade in enumerate(atribuicao):
         if idx_cidade in usadas or not cidade_pode_sediar(cidades[idx_cidade], semana):
@@ -93,7 +93,7 @@ def solucao_factivel(cidades, atribuicao, cidades_obrigatorias):
         usadas.add(idx_cidade)
     return cidades_obrigatorias <= usadas
 
-# ─────────────────── função objetivo ─────────────────────────────────────────
+# função objetivo 
 
 def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
     """
@@ -127,7 +127,7 @@ def criar_funcao_objetivo(alfa, beta, gama, phi, cidades, equipes):
 
         num_part, custo_reuniao = cache_reuniao[primeira]
 
-        # distância do evento: percorre as cidades e volta para a primeira (despedida)
+        # distância do evento: percorre as cidades e volta para a primeira 
         custo_evento = sum(matriz_dist[atribuicao[k]][atribuicao[k + 1]]
                            for k in range(num_semanas - 1))
         custo_evento += matriz_dist[atribuicao[-1]][primeira]
@@ -411,7 +411,7 @@ def double_bridge(atribuicao, aleatorio):
 
 def resolver(caminho_instancia, limite_tempo):
     alfa, beta, gama, phi, num_semanas, num_cidades, num_equipes, cidades, equipes = \
-        ler_instancia(caminho_instancia)
+        ler_arquivo(caminho_instancia)
 
     func_obj, matriz_dist, cache_reuniao = criar_funcao_objetivo(
         alfa, beta, gama, phi, cidades, equipes)
@@ -537,7 +537,7 @@ if __name__ == '__main__':
     if atribuicao is None:
         sys.exit(1)
 
-    _, _, _, _, _, _, _, cidades, _ = ler_instancia(caminho_instancia)
+    _, _, _, _, _, _, _, cidades, _ = ler_arquivo(caminho_instancia)
 
     with open(caminho_saida, 'w', encoding='utf-8') as saida:
         for idx in atribuicao:
