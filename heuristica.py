@@ -1,12 +1,5 @@
 """
-Furlan 1 – Solver Heurístico
-Pipeline:
-  1. Construção gulosa multi-start aleatorizada
-  2. Busca local completa (swap + or-opt) nas melhores soluções
-  3. Simulated Annealing na melhor solução de busca local
-  4. ILS: perturbação double-bridge + busca local rápida no tempo restante
-
-Sem multi-thread. Sem dependências externas.
+Furlan 1 – Heurística
 """
 
 import sys, math, random, time
